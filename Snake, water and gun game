@@ -12,6 +12,7 @@ youDict = {"s": 1, "w": -1, "g":0}
 reverseDict = {1: "snake", -1:"water", 0: "gun"}
 you = youDict[youstr]
 
+# by now we have two numbers(variables) computers and you
 print(f"you chose {reverseDict[you]}\ncomputer chose {reverseDict[computer]}")
 
 if(computer == you):
